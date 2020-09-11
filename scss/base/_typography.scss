@@ -1,21 +1,34 @@
-/* Scss Document */
+// Scss Document //
 
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
 
+* {
+  font-family: 'Lato', sans-serif;
+  color: $main-font-color;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
 .headline-primary {
-  color: #58e1c1;
-  margin-left: 10px;
+  color: $primary-color;
+  margin-left: $std-margin;
 }
 
 .headline-secondary {
   font-weight: 300;
-  color: #777;
+  color: $main-font-color;
 }
 
 .link {
-  color: #51ddfc;
+  color: $secondary-color;
   font-weight: 700;
 }
 
@@ -23,8 +36,8 @@
   font-size: 1.5em;
   font-weight: 300;
   font-style: italic;
-  margin-left: 20px;
-  padding-left: 20px;
-  border-left: 8px solid #58e1c1;
+  margin-left: calc(#{$std-margin} * 2);
+  padding-left: calc(#{$std-padding} * 2);
+  border-left: 8px solid $primary-color;
   border-radius: 5px;
 }

@@ -1,10 +1,10 @@
-/* Scss Document */
+// Scss Document //
 
 // =========================================================   
-// scss import file for component styles
+// scss import file for base styles
 // ========================================================= 
 
-@import 'helpers',
-		'functions',
+@import 'variables',
 		'mixins',
-		'variable';
+		'functions';
+

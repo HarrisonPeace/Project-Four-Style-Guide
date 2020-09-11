@@ -1,0 +1,51 @@
+// Scss Document //
+
+// ============================================= //
+//                  Variables                    //
+// ============================================= //
+
+//---------- Descriptive Colors ----------//
+
+$white                : #fff;
+$black                : #000;
+$gray                 : #777;
+$viking-green         : #58e1c1;
+$malibu-blue          : #51ddfc;
+$sunglo-red			  : #e4757a;
+$coral-orange         : #fd7856;
+$emerald-green        : #63cc82;
+$majesty-purple       : #927bc1;
+
+//----------- Functional Colors ----------//
+
+$primary-color        : $viking-green;
+$secondary-color      : $malibu-blue;
+
+$main-font-color      : $gray;
+
+$error-color          : $sunglo-red;
+$warning-color        : $coral-orange;
+$success-color        : $emerald-green;
+$info-color           : $majesty-purple;
+
+
+//----------- Padding / Margin ----------//
+
+$std-padding          : 10px;
+$std-margin           : 10px;
+
+//------------ Break Points ------------//
+
+$breakpoint: (
+	'tablet'          : 768px,
+	'laptop'          : 1024px,
+);
+
+//------------ Break Points ------------//
+$buttons: (
+	'.default'         : $secondary-color,
+	'.error'           : $error-color,
+	'.warning'         : $warning-color,
+	'.success'         : $success-color,
+	'.info'            : $info-color,
+);
